@@ -29,7 +29,7 @@
 
 ## 🏗️ System Architecture
 
-![System Architecture](system-architecture.png)
+![System Architecture](architecture/system-architecture.png)
 
 ---
 
