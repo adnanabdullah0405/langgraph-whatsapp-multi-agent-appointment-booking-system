@@ -135,8 +135,7 @@ langgraph-whatsapp-multi-agent-booking-system/
 │   └── system-architecture.png
 ├── demo/
 │   └── screenshots/
-└── docs/
-    └── agent-flow.md
+
 ```
 
 ---
