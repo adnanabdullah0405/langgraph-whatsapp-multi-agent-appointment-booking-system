@@ -29,31 +29,7 @@
 
 ## 🏗️ System Architecture
 
-```mermaid
-graph TD
-    A[📱 WhatsApp User] --> B[WhatsApp Cloud API]
-    B --> C[FastAPI Webhook]
-    C --> D[🧠 Supervisor Agent]
-
-    D -->|Doctor name query| E[👨‍⚕️ Doctor Name Booking Agent]
-    D -->|Specialty query| F[🔍 Specialization Booking Agent]
-    D -->|Lab test query| G[🧪 Lab Appointment Agent]
-    D -->|Reschedule request| H[📅 Reschedule Agent]
-    D -->|General questions| I[❓ FAQ Agent - Agentic RAG]
-    D -->|History request| J[📍 Appointment History Agent]
-    D -->|Cannot handle| K[🚨 Human Escalation - Chatwoot]
-
-    E --> L[(PostgreSQL)]
-    F --> L
-    G --> L
-    H --> L
-    I --> M[(Pinecone Vector DB)]
-    J --> L
-    J --> N[📌 Google Maps Location Link]
-
-    D --> O[Response Generator]
-    O --> B
-```
+![System Architecture](system-architecture.png.png)
 
 ---
 
