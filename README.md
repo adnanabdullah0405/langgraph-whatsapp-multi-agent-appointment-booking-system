@@ -148,7 +148,7 @@ langgraph-whatsapp-multi-agent-booking-system/
 ---
 
 > ⚠️ **Note:** This repository showcases the architecture and design 
-> of a production system built at Oladoc. Source code is proprietary. 
+> of a production system. Source code is proprietary. 
 > A simplified open-source demo version is in progress.
 
 ---
