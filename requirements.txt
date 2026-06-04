@@ -1,0 +1,20 @@
+# --- Core Framework ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.3.0
+langgraph>=0.2.0
+
+# --- Web & API (New) ---
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+slowapi>=0.1.8
+python-multipart>=0.0.6
+
+# --- Tools & APIs ---
+requests>=2.31.0
+duckduckgo-search>=6.0.0
+
+# --- Utilities ---
+python-dotenv>=1.0.0
+typing-extensions>=4.8.0
